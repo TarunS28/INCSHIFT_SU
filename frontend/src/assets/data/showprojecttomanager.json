@@ -1,0 +1,86 @@
+[
+  {
+    "projectName": "Sitecore",
+    "projectDescription": null,
+    "employee": {
+      "role": "manager",
+      "email": "@incedo",
+      "employee_id": 1205742,
+      "employee_name": "Nirmal Mohansingh Rajput",
+      "password": "1234"
+    },
+    "project_id": "II-PROJ-00003"
+  },
+  {
+    "projectName": "SFDC",
+    "projectDescription": null,
+    "employee": {
+      "role": "manager",
+      "email": "@incedo",
+      "employee_id": 1205742,
+      "employee_name": "Nirmal Mohansingh Rajput",
+      "password": "1234"
+    },
+    "project_id": "II-PROJ-00012"
+  },
+  {
+    "projectName": "eSigna",
+    "projectDescription": null,
+    "employee": {
+      "role": "manager",
+      "email": "@incedo",
+      "employee_id": 1205742,
+      "employee_name": "Nirmal Mohansingh Rajput",
+      "password": "1234"
+    },
+    "project_id": "II-PROJ-00014"
+  },
+  {
+    "projectName": "Investment",
+    "projectDescription": null,
+    "employee": {
+      "role": "manager",
+      "email": "@incedo",
+      "employee_id": 1205742,
+      "employee_name": "Nirmal Mohansingh Rajput",
+      "password": "1234"
+    },
+    "project_id": "II-PROJ-00156"
+  },
+  {
+    "projectName": "Ops Enhancements",
+    "projectDescription": null,
+    "employee": {
+      "role": "manager",
+      "email": "@incedo",
+      "employee_id": 1205742,
+      "employee_name": "Nirmal Mohansingh Rajput",
+      "password": "1234"
+    },
+    "project_id": "II-PROJ-00426"
+  },
+  {
+    "projectName": "OKTA Implementation",
+    "projectDescription": null,
+    "employee": {
+      "role": "manager",
+      "email": "@incedo",
+      "employee_id": 1205742,
+      "employee_name": "Nirmal Mohansingh Rajput",
+      "password": "1234"
+    },
+    "project_id": "II-PROJ-01042"
+  },
+  {
+    "projectName": "Holiday_India",
+    "projectDescription": null,
+    "employee": {
+      "role": "manager",
+      "email": "@incedo",
+      "employee_id": 1205742,
+      "employee_name": "Nirmal Mohansingh Rajput",
+      "password": "1234"
+    },
+    "project_id": "IT-PROJ-00178"
+  }
+]

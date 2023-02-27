@@ -1,0 +1,28 @@
+.panel-container {
+  background-color: #043465;
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+  height: 100%;
+  width:250px
+}
+
+.left-panel,
+.panel {
+  border: 2px solid #ef4815;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  cursor: pointer;
+}
+
+.panel {
+  padding-left: 20px;
+  width: 180px;
+  color: white;
+}
+
+.left-panel {
+  padding: 15px;
+  width: 150px;
+}

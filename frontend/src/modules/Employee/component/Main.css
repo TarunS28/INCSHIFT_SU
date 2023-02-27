@@ -1,0 +1,15 @@
+.status {
+  display: inline;
+  border: none;
+  background-color: #ef4815;
+  border-top-right-radius: 40px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.week-status {
+  border-top-left-radius: 40px;
+  background-color: #ef4815;
+  padding: 15px;
+  width: 100px;
+}

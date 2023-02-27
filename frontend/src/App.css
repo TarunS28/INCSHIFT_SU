@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*>* {
+  font-family: "Poppins", cursive;
+  margin: 0;
+}
+
+
+@media screen and (min-width: 860px) {
+  .register .col-2 img {
+    display: initial;
+  }
+}

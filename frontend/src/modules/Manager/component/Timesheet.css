@@ -1,0 +1,12 @@
+.timesheet {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #ef4815;
+  width: 200px;
+  margin-top: 20px;
+  color: #ef4815;
+  padding: 10px;
+  font-size: 20px;
+  text-transform: capitalize;
+}

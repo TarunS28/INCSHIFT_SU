@@ -1,0 +1,81 @@
+.register {
+  max-width: 978px;
+  width: 100vw;
+  display: flex;
+  border: 1px #e9ecef;
+  border-radius: 15px;
+  /* box-shadow: 1px 3px 10px #e9ecef; */
+  backdrop-filter: blur(5px);
+}
+
+.page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(../../assets/winAge.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#form {
+  max-width: 320px;
+  width: 100vw;
+  margin: 2em auto;
+}
+
+#form > input,
+.btn {
+  border: 1px solid #000;
+  padding: 0.9em 1em;
+  border-radius: 15px;
+}
+
+#form > input:focus {
+  outline: none;
+}
+.register .col-1 .flex-flex-box .input-box {
+  backdrop-filter: blur(5px);
+}
+
+#form > .btn {
+  background-color: #ef4815;
+  color: #e9ecef;
+  font-size: 1em;
+  cursor: pointer;
+  border: white;
+}
+
+.flex {
+  display: flex;
+  gap: 1em;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.register .col-1 {
+  margin: auto;
+  padding: 3em 0;
+}
+
+.register .col-1 .signintext {
+  color: #ef4815;
+}
+
+.register .col-2 img {
+  width: 450px;
+  height: 100%;
+  align-self: flex-end;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: none;
+}
+
+@media screen and (min-width: 860px) {
+  .register .col-2 img {
+    display: initial;
+  }
+}
