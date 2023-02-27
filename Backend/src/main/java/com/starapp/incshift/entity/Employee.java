@@ -19,8 +19,7 @@ public class Employee {
 		
 	}
 	
-	public Employee(int employeeid, String employeename, String email, String password, String role,
-			List<Project> projects) {
+	public Employee(int employeeid, String employeename, String email, String password, String role) {
 		super();
 		Employeeid = employeeid;
 		Employeename = employeename;

@@ -77,17 +77,11 @@ public class TimesheetController {
 	
 //	@CrossOrigin("*")	
 //	@GetMapping("java/Employee/Timesheet/approved/{employeeid}/{approval}")
-//	public List<Timesheet> fetchAlltimesheet(@PathVariable("employeeid") int employeeid,@PathVariable("approval")int approval){
-//	System.out.println(employeeid);
-//	System.out.println(approval);
-//		return timesheetRepository.findByemployeeIdapproval(employeeid,approval);
-//	}
-	
 	//jugad..........
 	@CrossOrigin("*")	
 	@PostMapping("/java/Manager/Timesheet")
 	public ResponseEntity<List<Timesheet>> fetchAlltimesheetOfManager(@RequestBody EmployeeRequest employeeRequest ){
-		System.out.println(employeeRequest.getEmployeeId());
+		System.err.println(employeeRequest.getEmployeeId());
 		return ResponseEntity.ok(timesheetRepository.findByemployeeId(employeeRequest.getEmployeeId()));
 	}	
 	//jugad
@@ -100,13 +94,6 @@ public class TimesheetController {
 	
 //	//update status of timesheet of employee by manager
 //		@PatchMapping("/java/Manager/Timesheet/Approve")
-//		public ResponseEntity<Timesheet> updatestatuss(@RequestBody TimesheetUpdateRequest timesheetUpdateRequest) {
-//			System.out.println(timesheetUpdateRequest.getTimesheetId());
-//			Timesheet timesheet = timesheetRepository.findBytimesheetId(timesheetUpdateRequest.getTimesheetId());
-//			timesheet.setApproval(1);
-//		
-//			return ResponseEntity.ok(timesheetRepository.save(timesheet));
 //			
-//		}
 	
 }

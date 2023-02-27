@@ -11,8 +11,7 @@ public class ProjectEmployeeMappingController {
 	@Autowired
 	ProjectEmployeeMappingRepository projectemployeemapping;
 //	@GetMapping("/showallocation/{employeeid}")
-//	public List<ProjectEmployeeMapping> fetchAllAllocation(@PathVariable("employeeid") int employeeid){
+//	{
 //	
-//		return projectemployeemapping.findByemployeeId(employeeid);
-//	}
+//		
 }
